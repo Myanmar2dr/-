@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThahayLoung 2D & 3D</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: white;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .logo {
+            width: 30%;
+            height: auto;
+        }
+        .info {
+            margin-left: 20px;
+        }
+        .support-contact a {
+            color: blue;
+            text-decoration: none;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+        }
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+        }
+        .play-store-badge {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            margin-top: 10px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                padding: 10px;
+            }
+            .logo {
+                width: 80%;
+                margin-bottom: 10px;
+            }
+            .info {
+                margin-left: 0;
+                width: 100%;
+            }
+            .play-store-badge {
+                width: 80%;
+                max-width: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.dropbox.com/scl/fi/qsnf4c7d61ccpuxx4ipjp/Picsart_24-07-19_20-36-29-625.jpg?rlkey=rfyrewbmj4fmpvfkn2g0nqsj4&dl=1" alt="ThahayLoung logo" class="logo">
+        <div class="info">
+            <h1>ThahayLoung 2D & 3D</h1>
+            <a href="https://play.google.com/store/apps/details?id=your.app.id" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.dropbox.com/scl/fi/tht90rw428uqxxkabp8h0/Google_Play_Store_badge_EN.svg.png?rlkey=2ft3lkztjubemd8b4fnc71so6&dl=1" alt="Get it on Google Play" class="play-store-badge">
+            </a>
+<p class="support-contact">Support contact: <a href="mailto:thahtayloungcustomerservice@gmail.com">thahtayloungcustomerservice</a></p>
+            <p>&copy; 2024-2025 ThahayLoung</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/hrqMuSpetBBgYHeU/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                </a>
+                <a href="https://t.me/thahtayloung" target="_blank" rel="noopener noreferrer">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
